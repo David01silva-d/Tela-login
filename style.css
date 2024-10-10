@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(68, 13, 68);
+}
+
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Titulo{
+    width: 30%;
+    font-size: 20px;
+    color: rgb(23, 221, 221);
+
+    
+}
+
+.Corpo{
+   /* border: 2px solid ; */
+   padding: 8%;
+   border-radius: 20px;
+   background-color: rgb(56, 7, 56);
+   box-shadow: 0 0 10px 5px black ;
+  
+    
+
+}
+
+.Corpo input{
+    display: flex;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(122, 12, 122);
+
+    
+    
+
+}
+
+.Corpo label{
+    display: flex;
+    padding: 10px 0;
+    font-size: 25px;
+    color: white;
+
+}
+
+.T1{
+    height: 85px;
+    
+    
+}
+
+.Corpo h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(27, 211, 211);
+    font-weight: 900;
+
+}
+
+img{
+    height: 400px;
+}
+
+.T2{
+    width: 190px;
+    margin: 20px 0;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 800;
+    background-color: rgb(9, 160, 160);
+    box-shadow: 0 5px 5px rgb(15, 70, 70);
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+.T2:hover{
+    background-color: black;
+}
+
+.T2:active{
+    background-color: red;
+}
+
+
+
+
